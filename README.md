@@ -22,23 +22,23 @@ but the system has its security system, which we should not deactivate for any r
 Do not share the private key with anyone and delete it after using.
 so when you run **sh ./install-freeride-ssh** it will ask you for a passphrase (password).
 which you should keep.
-### 6.1 Copying manually
+#### 6.1 Copying manually
 This method consists of opening the private key as a text file and copying it, this method is recommended.
 ```
 vi ~/.ssh/id_freeide_key
 ```
 to exit write **:q!**
-### 6.2 Copying to internal memory
+#### 6.2 Copying to internal memory
 This way just copy and paste the private key to internal memory
 ```
 cp ~/.ssh/id_freeide_key /sdcard/id_freeide_key
 ```
 The private and public key are in the Termux application so you can delete it when after the App **Free IDE** already has it.
 
-# 7. Installing Free IDE
+## 7. Installing Free IDE
 You will have to install **Free IDE** which will ask for the private key and the passphrase
 
-# 8. Turning the SSH Server On and Off
+## 8. Turning the SSH Server On and Off
 **the commands are respectively:**
 ```
 sshd
